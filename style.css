@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Padauk:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif,'Padauk', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.card{
+    
+    width: 350px;
+    margin-bottom: 20px;
+    margin: 50% auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   margin-left: 35%;
+   border-radius: 50%;
+    
+}
+
+.card-body{
+    text-align: center;
+    
+
+}
+
+.card-body h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.card-body .star{
+    margin-bottom: 5px;
+
+}
+.card .stars .fa-star{
+    font-size: 20px;
+    color: rgba(232, 192, 15, 0.632);
+   
+}
+
+.card-body p{
+    text-align:justify ;
+    padding:10px 15px;
+    margin-top: 10px;
+    
+
+}
+
