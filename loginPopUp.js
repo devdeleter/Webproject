@@ -13,14 +13,16 @@ btnSingin.addEventListener('click', () =>{
 })
 
 
-//popup model
+//popup modal
+const modal = document.querySelector('.modal')
+const openModal = document.querySelector('.loginOpener');
+const closeModal = document.querySelector('.close-button');
+openModal.addEventListener('click', ()=>{
+    modal.showModal();
+})
 
-const model = document.querySelector("#model")
 
-const openLogin = document.querySelector('.login')
-// const closeLogin = document.querySelector('')
-
-openLogin.addEventListener('click', ()=>{
-    model.show();
+closeModal.addEventListener('click', ()=>{
+    modal.close();
 })
 

@@ -4,28 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loginPopUp.css">
+
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-    <div class="card">
-        <img src="./images/camera-girl.jpg" alt="">
-       <div class="card-body">
-        <h3>Soe Khant</h3>
-        <div class="rating">
+    <header>
+        <div class="logo">
+            <img src="./images/male.png" alt="">
+        </div>
 
-            <div class="stars">
-
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="./images/male.png" alt="">
             </div>
 
+            <ul class="nav-list">
+                <li>
+                    
+                        <i class="fa-solid fa-fw fa-user"></i>
+                        <button class="loginOpener">Sign In/Up and Save 10%</button>
+                    
+                </li>
+              
+                
+            </ul>
+        </nav>
+    </header>
+
+    <center><dialog id="modal" class="modal">
+        <button class="close-button">Close</button>
+
+        <div class="container" id="container">
+
+            <div class="test">
+
+            <div class="form-container signup-container">
+                <form action="#" method="dialog">
+                    <h1>Create an Account</h1>
+                    <div class="social-container">
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+    
+                        
+                    </div>
+                    <span>use your email for registreation</span>
+                    <input type="text" placeholder="Name" name="" id="">
+                    <input type="email" placeholder="email">
+                    <input type="password" placeholder="Password">
+                    <br/>
+                    <button>Signup</button>
+    
+                </form>
+            </div>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="#" method="dialog">
+                    <h1>Sign in</h1>
+                    <div class="social-container">
+    
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+    
+                        
+                    </div>
+                    <span>Login to your account</span>
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <a href="#">Forget your password?</a>
+                    <br/>
+                    <button>Sign in</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-pannel overlay-left">
+                            <h1>Already have an account?</h1>
+                            <p>To keep connected with us 
+                                 please login with your 
+                                 account here
+                                
+                            </p>
+                            <button class="ghost" id="signIn">signIn</button> 
+    
+                    </div>
+                    <div class="overlay-pannel overlay-right">
+                        <span class="typewriter">
+                            <h1>Create your account<br>
+                            <span> and get tons of discounts</span>
+                            </h1>
+                            
+                            
+                            </span>
+                            <button class="ghost" id="signUp">Sign up</button>
+                    </div>
+                </div>
+            </div>
+    
         </div>
-        <p class="feedback">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt consequatur dolorum mollitia iste dolor commodi atque beatae facilis! Similique ipsam nesciunt quidem fuga quibusdam ducimus a. Eos, eius velit.</p>
-       </div>
-    </div>
+        </dialog>
+        </center>
+        <script src="./loginPopUp.js"></script>
+    
 </body>
 </html>

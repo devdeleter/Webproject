@@ -15,7 +15,7 @@
 }
 
 body{
-    /* background-color: rgb(176, 245, 245); */
+    background-color: rgb(176, 245, 245);
 }
 img{
     width: 100%;
@@ -47,8 +47,13 @@ header{
 
  .book-now{
    
+
     background:var(--last);
    
+
+    background:rgb(240, 111, 111) ;
+    border-radius: none; 
+
 }
 
 .nav-bar ul li a{
@@ -60,9 +65,7 @@ header{
     border-radius: 30px;
 }
 
-.nav-bar ul li .sign:hover{
-background: #f6f4ff;
-}
+/* .nav-bar ul li a:hover{ */
 
 .nav-bar ul li .active:hover{
 /* background: #85dffa; */
@@ -70,6 +73,10 @@ background: #f6f4ff;
 
 hr{
     border: 1px solid var(--last);
+
+    font-size: 18px;
+    transition: 0.3s;
+
 }
 
 .menu{
@@ -77,3 +84,6 @@ hr{
 }
 
 
+header{
+    height: 10vh;
+}
