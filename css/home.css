@@ -29,7 +29,6 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 0 15%;
-   
     margin: 0 auto;
 }
 
@@ -46,10 +45,10 @@ header{
     display: flex;
 }
 
- .active{
+ .book-now{
    
     background:var(--last);
-    border-radius: none; 
+   
 }
 
 .nav-bar ul li a{
@@ -66,11 +65,15 @@ background: #f6f4ff;
 }
 
 .nav-bar ul li .active:hover{
-background: #85dffa;
+/* background: #85dffa; */
 }
 
 hr{
     border: 1px solid var(--last);
+}
+
+.menu{
+    float: right;
 }
 
 
