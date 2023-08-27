@@ -15,7 +15,7 @@
 }
 
 body{
-    /* background-color: rgb(176, 245, 245); */
+    background-color: rgb(176, 245, 245);
 }
 img{
     width: 100%;
@@ -48,7 +48,7 @@ header{
 
  .active{
    
-    background:var(--last);
+    background:rgb(240, 111, 111) ;
     border-radius: none; 
 }
 
@@ -61,16 +61,13 @@ header{
     border-radius: 30px;
 }
 
-.nav-bar ul li .sign:hover{
-background: #f6f4ff;
-}
+.nav-bar ul li a:hover{
 
-.nav-bar ul li .active:hover{
-background: #85dffa;
-}
-
-hr{
-    border: 1px solid var(--last);
+    font-size: 18px;
+    transition: 0.3s;
 }
 
 
+header{
+    height: 10vh;
+}
