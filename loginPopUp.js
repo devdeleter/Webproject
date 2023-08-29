@@ -26,3 +26,10 @@ closeModal.addEventListener('click', ()=>{
     modal.close();
 })
 
+
+const close_button = document.getElementById("close-button")
+
+close_button.addEventListener('click', ()=>
+{
+    
+})

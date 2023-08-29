@@ -167,7 +167,7 @@ label{
 }
 
 
-.close-button {
+/* .close-button {
     border: none;
     display: inline-block;
     padding: 8px 16px;
@@ -180,9 +180,16 @@ label{
     cursor: pointer;
     white-space: nowrap
     
-  }
+  } */
 
 .topright{
     position: absolute;
     
+}
+
+
+.close-button{
+
+    
+
 }

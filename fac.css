@@ -1,0 +1,46 @@
+:root{
+    --border: 1px solid green;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-areas: "gym pool garden"
+    "golf salon bar"
+    ;
+}
+
+
+.gym{
+    grid-area: gym;
+}
+
+.pool{
+    grid-area: pool;
+}
+
+.garden{
+    grid-area: garden;
+}
+
+.golf{
+    grid-area: golf;
+}
+
+.salon{
+    grid-area: salon;
+}
+
+.bar{
+    grid-area: bar;
+}
+
+img{
+    width: 50px;
+    height: auto;
+}
+
+.facilityContainer, div{
+    border: --var(border);
+}
